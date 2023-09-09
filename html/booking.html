@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lavender Horizon Resort</title>
+<link rel="stylesheet" href="../css/general.css">
+</head>
+<body>
+
+<!-------------------------------------header------------------------------------------------------->
+
+<header>
+    <a href="../html/home.html"> <img class="logo" src="../img/hotel lavender.jpg" ></a>
+
+    <h1>Lavender Horizon Resort</h1>
+
+</header>
+
+<!---------------------------------------navigation links------------------------------------------------------------->
+
+<nav>
+  <div class="nav-links" id="navLinks">
+    <img src="../img/cross.png" class="fa" onclick="hideMenu()">
+    <ul class="navbar">
+        <li><a href="../html/home.html">Home</a></li>
+        <li><a href="../html/branches.html">Branches</a></li>
+        <li><a href="../html/adventures.html">Adventures</a></li>
+        <li><a href="../html/restaurants.html">Restaurants</a></li>
+        <li><a href="../html/conference.html">Conferences</a></li>
+        <li><a href="../html/Weddings.html">Weddings</a></li>
+        <li><a href="../html/booking.html">Booking</a></li>
+    </ul>
+  </div>
+  <img src="../img/menuBar.png" class="fa" onclick="showMenu()">
+</nav>
+
+<!-----------------------------------------Adventure form------------------------------------------------------------------->
+
+<div class="container">
+    <div class="image">
+        <img src="../img/adventure form 2.jpg" alt="Adventure Image">
+    </div>
+    <div class="form">
+        <h2>Adventure Form</h2>
+        <form> <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="adventure">Select Adventure:</label>
+            <select id="adventure" name="adventure" required>
+                <option value="hiking">Mountain Hiking</option>
+                <option value="kayaking">Kayaking Expedition</option>
+                <option value="camping">Wildlife Safari</option>
+                <option value="climbing">Beach Snorkeling</option>
+                <option value="climbing">Cultural Exploration</option>
+            </select>
+            
+            <label for="members">Number of Members:</label>
+            <input type="number" id="members" name="members" required>
+
+            <label for="check-in">Date:</label>
+            <input type="date" id="check-in" name="check-in" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+<!-------------------------------------------------Rooms booking form------------------------------------------------------------------->
+    
+    <div class="container">
+        <div class="image">
+            <img src="../img/booking form image.jpg" alt="Hotel Image">
+        </div>
+        <div class="form">
+            <h2>Rooms Booking Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="check-in">Check-in Date:</label>
+                <input type="date" id="check-in" name="check-in" required>
+                
+                <label for="check-out">Check-out Date:</label>
+                <input type="date" id="check-out" name="check-out" required>
+                
+                <label for="room-type">Room Type:</label>
+                <select id="room-type" name="room-type" required>
+                    <option value="single">Single Room</option>
+                    <option value="double">Double Room</option>
+                    <option value="suite">Suite</option>
+                </select>
+                
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" required>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <button type="submit">Book Now</button>
+
+            </form>
+        </div>
+    </div>
+
+<!--------------------------------------------------------footer----------------------------------------------------------------------------------->
+
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+        <h3><span>Lavender</span> Horizon Resort</h3>
+  
+        <p class="footer-links">
+          <a href="../html/home.html">Home</a>
+          |
+          <a href="../html/branches.html">Branches</a>
+          |
+          <a href="../html/adventures.html">Adventures</a>
+          |
+          <a href="../html/restaurants.html">Restaurants</a>
+          |
+          <a href="../html/conference.html">Conferences</a>
+          |
+          <a href="../html/Weddings.html">Weddings</a>
+          |
+          <a href="../html/booking.html">Booking</a>
+      </p>
+        <p class="footer-hotel-name">Copyright © 2023 <strong>Lavender Hotels</strong> All rights reserved</p>
+    </div>
+  
+    <div class="footer-center">
+        <div>
+            <i class="fa fa-map-marker"></i>
+            <p><span>Kinniya</span>
+                Trincomalee</p>
+        </div>
+  
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+94 773531775</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p>lavenderhotels@gmail.com</p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-hotel-about">
+            <span>About the hotel</span>
+            <strong>Lavender Horizon Resort</strong> our escape to serenity. 
+            Immerse in luxury, nature, and relaxation at our idyllic resort. 
+            Discover the essence of tranquility and create unforgettable memories.
+        </p>
+        <div class="footer-icons">
+          <a href="https://www.facebook.com/Lavenderhotels/"><img src="../img/fb.png" class="social_icon"></a>
+          <a href="https://www.instagram.com/lavenderhotels/?hl=en"><img src="../img/inster.png" class="social_icon"></a>
+          <a href="https://au.linkedin.com/company/hotel-lavender?trk=public_profile_experience-item_profile-section-card_image-click"><img src="../img/linkedin.png" class="social_icon"></a>
+          <a href="https://twitter.com/_lavenderhotels?lang=en"><img src="../img/twitter.png" class="social_icon"></a>
+          <a href="https://www.youtube.com/watch?v=8trhKjh8NHk&ab_channel=JourneywithBenny"><img src="../img/youtube.png" class="social_icon"></i></a>
+      </div>
+    </div>
+  </footer>
+
+<!----------------------------------------------Java for the nav----------------------------------------------------------------------------->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+          navLinks.style.right = "0";
+        }
+      
+        function hideMenu() {
+          navLinks.style.right="-200px";
+        }
+        
+      </script>
+
+
+</body>
+</html>
